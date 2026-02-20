@@ -73,9 +73,6 @@ GitHub Copilot was used extensively throughout the entire implementation process
 - **Issue:** All-or-nothing access control was too restrictive for real-world scenarios
 - **Solution:** Implemented granular field-level checking that allows certain updates (like priority) even when other fields are protected based on task status and user role
 
-**Challenge 5: Documentation Clarity**
-- **Issue:** Initial documentation mixed new implementations with existing boilerplate, causing confusion
-- **Solution:** Restructured all documentation to clearly separate "What We Built" vs "What Already Existed" with explicit line counts and code examples
 
 ## Time Breakdown
 <!-- Optional: Approximate time spent on each phase -->
