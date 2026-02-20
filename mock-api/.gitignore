@@ -1,0 +1,5 @@
+# Dependencies
+node_modules/
+
+# Note: db.json is intentionally tracked as it's part of the mock API setup
+# Candidates will modify this file as part of the test
