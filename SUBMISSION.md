@@ -71,21 +71,7 @@ GitHub Copilot was used extensively throughout the entire implementation process
 
 **Challenge 4: Field-Level RBAC Permissions**
 - **Issue:** All-or-nothing access control was too restrictive for real-world scenarios
-- **Solution:** Implemented granular field-level checking that allows certain updates (like priority) even when other fields are protected based on task status and user role
-
-
-## Time Breakdown
-<!-- Optional: Approximate time spent on each phase -->
-
-- Planning & Setup: 15 minutes (Architecture design, dependency installation)
-- Core Implementation: 90 minutes (Filter, sorting, RBAC across all layers)
-- Testing & Debugging: 30 minutes (Manual API testing, Swagger error fixes)
-- Additional Requirements (30-min mark): 45 minutes (Logging middleware implementation)
-- Additional Requirements (45-min mark): 45 minutes (Advanced validation with Joi and sanitization)
-- Optional Challenge (if attempted): 60 minutes (Combined all optional challenges)
-- Documentation: 45 minutes (4 comprehensive markdown files)
-
-**Total Time:** ~330 minutes (5.5 hours)
+- **Solution:** Implemented granular field-level(**Role: user & admin**) checking that allows only **admin** can update the progress of task  which marked as **Done** and  normal user can not do.
 
 ## Optional Challenge
 <!-- If you attempted an optional challenge, specify which one -->
